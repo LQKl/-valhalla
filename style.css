@@ -1,0 +1,104 @@
+/* Комменты css */
+/*
+Отступ вниз: .site-header {
+  margin-bottom: 30px;
+}
+Писать в центре:
+  text-align: center;
+*/
+html {
+  background: url("images/background.jpg") no-repeat /* Можно написать repeat-x */ #ddeea5 center top;
+  /* На весь экран:
+  Body {
+  background: url(images/oboi.jpg) no-repeat;
+    background-size:100% 100%;
+}
+  */
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+}
+.centerpro {
+	text-align: center;
+}
+.skills-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+    color: #999999;
+}
+
+.skills-list {
+  padding: 10;
+  list-style: none;
+}
+
+.danger-text {
+  color: #ff4400;
+}
+
+h1 {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 12px;
+  } /* Выделение для заголовков */
+
+.danger-block {
+  padding: 5px 10px;
+
+  background-color: #ffd0bf;
+}
+
+.no-danger-block {
+  padding: 5px 10px;
+
+  background-color: #c6f5f0;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+
+figcaption {
+  width: 502px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(202, 224, 248);
+}
+
+.avatar {
+  border-radius: 10px;
+} /*Скругление углов, допустим у картинки*/
+
+nav a {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 5px solid #2d508f;
+  background-color: #4470c4;
+  color: #ffffff;
+}
+
+nav a {
+  color: #ffffff;
+}/*Для содержания страницы*/
+
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+}/*По идее проценты навыков, которые выглядят норм, график*/
